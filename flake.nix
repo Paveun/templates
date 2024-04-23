@@ -12,6 +12,6 @@
         description = "Empty dev template that you can customize at will";
       };
     };
-    defaultTemplate = self.templates.trivial;
+    defaultTemplate = self.templates.empty;
   };
 }
