@@ -1,7 +1,8 @@
 {
   description = "Ready-made templates for easily creating flake-driven environments";
 
-  inputs.nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
+  # inputs.nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
+  inputs.nixpkgs.url = "github:nixos/nixpkgs?ref=nixos-unstable";
 
   outputs = { self, nixpkgs }:
     let
