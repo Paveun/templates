@@ -3,7 +3,7 @@
   
   outputs = {self}: {
     templates = {
-      python = {
+      python-httpx = {
         path = ./python-httpx;
         description = "Python httpx requests dev environment";
       };
