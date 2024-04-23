@@ -50,7 +50,7 @@
             dvt = final.writeShellApplication {
               name = "dvt";
               text = ''
-                if [ -z $1 ]; then
+                if [ -z "$1" ]; then
                   echo "no template specified"
                   exit 1
                 fi
@@ -61,7 +61,7 @@
                   --experimental-features 'nix-command flakes' \
                   flake init \
                   --template \
-                  "github:the-nix-way/dev-templates#''${TEMPLATE}"
+                  "github:paveun/dev-templates#''${TEMPLATE}"
               '';
             };
 
