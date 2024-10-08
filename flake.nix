@@ -7,6 +7,10 @@
         path = ./python-httpx;
         description = "Python httpx requests dev environment";
       };
+      nodejs = {
+        path = ./nodejs;
+        description = "Simple nodejs environment";
+      };
       empty = {
         path = ./empty;
         description = "Empty dev template that you can customize at will";
