@@ -11,6 +11,10 @@
         path = ./nodejs;
         description = "Simple nodejs environment";
       };
+      deno = {
+        path = ./deno;
+        description = "Simple deno javascript environment";
+      };
       empty = {
         path = ./empty;
         description = "Empty dev template that you can customize at will";
