@@ -7,6 +7,10 @@
         path = ./python-httpx;
         description = "Python httpx requests dev environment";
       };
+      python-uv = {
+        path = ./python-uv;
+        description = "Python with uv environment";
+      };
       nodejs = {
         path = ./nodejs;
         description = "Simple nodejs environment";
