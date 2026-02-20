@@ -1,6 +1,6 @@
 {
   description = "Ready-made templates for easily creating flake-driven environments";
-  
+
   outputs = {self}: {
     templates = {
       python-httpx = {
@@ -18,6 +18,10 @@
       deno = {
         path = ./deno;
         description = "Simple deno javascript environment";
+      };
+      bun = {
+        path = ./bun;
+        description = "Simple bun javascript environment";
       };
       empty = {
         path = ./empty;
